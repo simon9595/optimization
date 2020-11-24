@@ -722,7 +722,7 @@ h3 {
     box-shadow: 0px 0px 0px #000000;
 }
 
-h1 {
+h2 {
     color: #333333!important;
 }
 
@@ -873,7 +873,7 @@ h4 {
     .b-parallax {
         background-attachment: scroll;
     }
-    .page-container,
+    main,
     #hero-bloc {
         overflow-x: hidden;
         position: relative;
@@ -896,7 +896,7 @@ h4 {
 }
 
 @media (max-width: 767px) {
-    .page-container {
+    main {
         overflow-x: hidden;
         position: relative;
     }
