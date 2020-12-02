@@ -7,6 +7,11 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+.title{
+  padding: 0 5%;
+  font-size: 2em;
+}
+
 a,
 button {
     transition: all .3s ease-in-out;
@@ -283,7 +288,7 @@ a:hover {
 }
 
 #bloc-2-services p {
-    font-size: 11px;
+    font-size: 0.9em;
 }
 
 .navbar {
@@ -576,13 +581,11 @@ a[data-lightbox]:hover img {
 }
 
 .lightbox-caption {
-    padding: 20px;
     color: #FFF;
     background: rgba(0, 0, 0, .5);
     position: absolute;
-    left: 15px;
-    right: 15px;
-    bottom: 5px;
+    text-align: center;
+    padding: 2px 16px;
 }
 
 .close-lightbox {
@@ -633,9 +636,10 @@ a[data-lightbox]:hover img {
 }
 
 .snapshot-lb .lightbox-caption {
-    padding: 0;
-    color: rgba(0, 0, 0, .5);
-    background: none;
+    text-align: center;
+    background-color: white;
+    padding: 2px 16px;
+    color: black;
 }
 
 h1,
@@ -650,7 +654,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #575757;
 }
 
 .container {
@@ -676,7 +680,7 @@ a {
 }
 
 p {
-    font-size: 12px;
+    font-size: 1em;
 }
 
 .tight-width-whitespace {
@@ -1030,6 +1034,14 @@ h4 {
     .blocsapp-device-iphone5 img {
         width: 180px;
         height: 320px;
+    }
+
+    .title{
+      font-size: 1.5em;
+    }
+
+    p {
+      font-size: 0.9em;
     }
 }
 
